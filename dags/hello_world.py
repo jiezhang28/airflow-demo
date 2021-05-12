@@ -14,6 +14,6 @@ dag = DAG(
 task = BashOperator(
     task_id='print_hello_world',
     dag=dag,
-    bash_command='echo "Hello World!',
+    bash_command='echo "Hello World!"',
 )
 
