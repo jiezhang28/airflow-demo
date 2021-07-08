@@ -17,7 +17,7 @@ dag = DAG(
 file_sensor = FileSensor(
     task_id='file_sensor',
     dag=dag,
-    file_path='/data/numbers.json',
+    filepath='/data/numbers.json',
     poke_interval=5,
 )
 
